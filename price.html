@@ -29,20 +29,20 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-white position-relative">
-        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+    <div class="container-fluid bg-dark position-relative">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-light py-3 py-lg-0">
             <a href="index.html" class="navbar-brand text-secondary">
                 <img class="logo" src="./img/Logo.png" alt="Silver Lining Tech">
             </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" id="navbar-toggler">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0 pr-3 border-right">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="index.html" class="nav-item nav-link">Home</a>
                     <!--  <a href="about.html" class="nav-item nav-link">About</a>-->
                     <!--  <a href="service.html" class="nav-item nav-link">Services</a>-->
-                    <a href="price.html" class="nav-item nav-link active">Prices</a>
+                    <a href="price.html" class="nav-item nav-link active">Pricing</a>
                     <!--  <a href="project.html" class="nav-item nav-link">Projects</a>-->
                     <!-- <div class="nav-item dropdown">-->
                     <!--     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>-->
@@ -57,7 +57,7 @@
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
                     <div>
                         <h6 class="text-body text-uppercase mb-1"><small>Call Anytime</small></h6>
-                        <h6 class="m-0">330 604 4008</h6>
+                        <a href= “tel:+3306044008”><p>330 604 4008</p></a>
                     </div>
                 </div>
             </div>
@@ -65,10 +65,9 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Page Header Start -->
     <div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
-        <h1 class="display-3 text-uppercase mb-3">Prices</h1>
+        <h1 class="display-3 text-uppercase mb-3">Pricing</h1>
         <div class="d-inline-flex text-white">
             <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
             <h6 class="m-0 px-3">/</h6>
@@ -81,7 +80,7 @@
     <div id="content_container">
         <div  id="in_home_container" class="price_container">
             <div>
-                <h1 class="text-uppercase mb-3">Package One: General In-Home Consultation<i class="fa-solid fa-house-user"></i></h1>
+                <h1 class="text-uppercase mb-3">Package One: General In-Home Consultation <!--<i class="fa-solid fa-house-user"></i>--></h1>
             </div>
             <p>With our General In-Home Consultation a technician will come to your home or business. Examples include configuring your router, setting up a smart device, or troubleshooting email issues</p>
             <div>
@@ -90,40 +89,40 @@
             </div>
         </div>
         <div  id="computer_container" class="price_container">
-            <h1 class=" text-uppercase mb-3">Package Two: Computer Repair/Services<i class="fa-solid fa-screwdriver-wrench"></i></h1>
+            <h1 class=" text-uppercase mb-3">Package Two: Computer Repair/Services<!--<i class="fa-solid fa-screwdriver-wrench"></i>--></h1>
             <p>Our technicians are trained to solve a variety of computer issues. These problems are typically more involved and time consuming. If necessary, a technician may need to take the device in order to fix the problem. </p>
             <p>At the appointment, in which you are located, a technician will assess and strategize a plan. Once a solution is agreed upon, the technician will take only the necessary equipment to repair. Please allow the technician 4-5 days to work towards completing the repair. The technician will then return the repaired equipment. </p>
             <div class="package_description">
-                <h4>Data Transfer/ Data Copy <b> $50 </b> <i class="fa-regular fa-file"></i></h4>
+                <h4>Data Transfer/ Data Copy <b> $50 </b> <!--<i class="fa-regular fa-file"></i>--></h4>
                 <!--<p class="price_descritpion">
                     Need to get files from one location to another? We can help! We can transfer your files to where they need regardless if its just to backup or to transfer on to a new computer.
                 </p> -->
             </div>
             <div class="package_description">
-                <h4>Software Install:<b> $60 </b> <i class="fa-solid fa-download"></i></h4>
+                <h4>Software Install:<b> $60 </b> <!--<i class="fa-solid fa-download"></i>--></h4>
                 <!--<p class="price_descritpion">
                     Have a new software you've been wanting to try out but haven't had the time to install it? We would be happy to do it for you. We can try to set this software up to best suit your needs as well as ensure its functioning well.
                 </p> -->
             </div>
             <div class="package_description">
-                <h4>General Tune Up: <b> $80 </b> <i class="fa-solid fa-viruses"></i> </h4>
+                <h4>General Tune Up: <b> $80 </b><!-- <i class="fa-solid fa-viruses"></i>--> </h4>
                 <p class="price_descritpion">
                     If your computer is not up to your standards, we can optimize the computer to its best ability. This would include searching for viruses or malware installed on the computer, installing any needed updates to the operating system or drivers, and making sure the settings are optimal. 
                 </p>
             </div>
             <div class="package_description">
-                <h4>Hard drive replacement: <b>  $100 + Material </b> <i class="fa-regular fa-hard-drive"></i> </h4>
+                <h4>Hard drive replacement: <b>  $100 + Material  </h4>
                 <p class="price_descritpion">
                     Hard drives are expendable and often wear over time. We can install a new hard drive in your computer allowing you to install an operating system of choice.
             </div>
             <div class="package_description">
-                <h4>Operating System Installation: <b>  $150 + OS cost</b> <i class="fa-brands fa-windows"></i> </h4>
+                <h4>Operating System Installation: <b>  $150 + OS Cost</b><!-- <i class="fa-brands fa-windows"></i> --></h4>
                 <!--<p class="price_descritpion">
                     When you need a computer to go back to a clean slate, reinstalling the operating system is your go to answer. This will remove all of the personal information you've entered to the computer over the years. Additionally, this is a sure way to remove any malware on the computer. 
                 </p>-->
             </div>
             <div class="package_description">
-                <h4>The Complete Package: <b> $200 + hardware </b> <i class="fa-solid fa-box"></i> </h4>
+                <h4>The Complete Package: <b> $200 + Hardware </b> <!--<i class="fa-solid fa-box"></i>--> </h4>
                 <p class="price_descritpion">
                     The package includes installing a new hard drive and operating system and transferring files from the preexisting hard drive. Additionally, we install any software requested on the machine. This is our most comprehensive offer.
                 </p>
@@ -138,7 +137,6 @@
         </div>
     </div>
     <!-- Pricing Plan End -->
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50  px-sm-3 px-md-5" >
         <div class="row pt-5">
@@ -149,17 +147,15 @@
                 <p> <i> The Silver Lining to all your computer problems!</i></p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.facebook.com/profile.php?id=61555626040829"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.instagram.com/silverliningtech"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-13 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
                 <p>Reach out using the information below or via our message box above to schedule an appointment.</p>
-                <p><i class="fa fa-phone-alt text-white mr-2"></i>330 604 4008</p>
-                <p><i class="fa fa-envelope text-white mr-2"></i>nathan@silverliningtech.net</p>
+                <a href= “tel:+3306044008”><p><i class="fa fa-phone-alt text-white mr-2"></i>330 604 4008</p></a>
+                <a href="mailto:nathan@silverliningtech.net"><p><i class="fa fa-envelope text-white mr-2"></i>nathan@silverliningtech.net</p></a>
             </div>
         </div>
     </div>

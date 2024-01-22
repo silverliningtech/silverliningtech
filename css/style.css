@@ -4024,7 +4024,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: white;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -9552,7 +9552,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #686A6F !important;
+  color: white;
 }
 
 .text-muted {
@@ -9730,13 +9730,13 @@ h6,
   font-weight: 400;
   text-transform: uppercase;
   padding: 45px 15px;
-  color: #222429;
+  color: whitesmoke;
   outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--darkgrey);
+  color: white;
 }
 
 @media (max-width: 991.98px) {
@@ -9799,7 +9799,7 @@ h6,
 }
 
 .page-header {
-  height: 400px;
+  height: 230px;
   margin-bottom: 90px;
 }
 
@@ -9975,4 +9975,8 @@ h6,
 
 .package_description{
   padding-bottom: 2%;
+}
+
+#navbar-toggler{
+  background-color: white;
 }
